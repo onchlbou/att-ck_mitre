@@ -1,0 +1,784 @@
+tactic|technique|id|platforms|layer|created
+Collection|Code Repositories|T1213.003|SaaS|enterprise|2021-05-11
+Collection|Network Device Configuration Dump|T1602.002|Network|enterprise|2020-10-20
+Collection|SNMP (MIB Dump)|T1602.001|Network|enterprise|2020-10-19
+Collection|Data from Configuration Repository|T1602|Network|enterprise|2020-10-19
+Collection|Remote Data Staging|T1074.002|Windows,IaaS,Linux,macOS|enterprise|2020-03-13
+Collection|Local Data Staging|T1074.001|Linux,macOS,Windows|enterprise|2020-03-13
+Collection|Archive via Custom Method|T1560.003|Linux,macOS,Windows|enterprise|2020-02-20
+Collection|Archive via Library|T1560.002|Linux,macOS,Windows|enterprise|2020-02-20
+Collection|Archive via Utility|T1560.001|Linux,macOS,Windows|enterprise|2020-02-20
+Collection|Archive Collected Data|T1560|Linux,macOS,Windows|enterprise|2020-02-20
+Collection|Email Forwarding Rule|T1114.003|Office 365,Windows,Google Workspace,macOS,Linux|enterprise|2020-02-19
+Collection|Remote Email Collection|T1114.002|Office 365,Windows,Google Workspace|enterprise|2020-02-19
+Collection|Local Email Collection|T1114.001|Windows|enterprise|2020-02-19
+Collection|Sharepoint|T1213.002|Windows,Office 365|enterprise|2020-02-14
+Collection|Confluence|T1213.001|SaaS|enterprise|2020-02-14
+Collection|Credential API Hooking|T1056.004|Windows|enterprise|2020-02-11
+Collection|Web Portal Capture|T1056.003|Linux,macOS,Windows|enterprise|2020-02-11
+Collection|GUI Input Capture|T1056.002|macOS,Windows,Linux|enterprise|2020-02-11
+Collection|Keylogging|T1056.001|Windows,macOS,Linux,Network|enterprise|2020-02-11
+Collection|Data from Cloud Storage Object|T1530|IaaS|enterprise|2019-08-30
+Collection|Data from Information Repositories|T1213|Linux,Windows,macOS,SaaS,Office 365,Google Workspace,IaaS|enterprise|2018-04-18
+Collection|Browser Session Hijacking|T1185|Windows|enterprise|2018-01-16
+Collection|Video Capture|T1125|Windows,macOS|enterprise|2017-05-31
+Collection|Audio Capture|T1123|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Automated Collection|T1119|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Clipboard Data|T1115|Linux,Windows,macOS|enterprise|2017-05-31
+Collection|Email Collection|T1114|Windows,Office 365,Google Workspace,macOS,Linux|enterprise|2017-05-31
+Collection|Screen Capture|T1113|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Data Staged|T1074|Windows,IaaS,Linux,macOS|enterprise|2017-05-31
+Collection|Input Capture|T1056|Linux,macOS,Windows,Network|enterprise|2017-05-31
+Collection|Data from Network Shared Drive|T1039|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Data from Removable Media|T1025|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Data from Local System|T1005|Linux,macOS,Windows|enterprise|2017-05-31
+Collection|Automated Collection|T0802|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay,Control Server|ics|2020-05-21
+Collection|Data from Information Repositories|T0811|Control Server,Data Historian,Engineering Workstation,Human-Machine Interface|ics|2020-05-21
+Collection|Detect Operating Mode|T0868|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Collection|Man in the Middle|T0830|Control Server,Field Controller/RTU/PLC/IED,Human-Machine Interface|ics|2020-05-21
+Collection|Program Upload|T0845|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Collection|Screen Capture|T0852|Human-Machine Interface|ics|2020-05-21
+Collection|I/O Image|T0877|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Collection|Monitor Process State|T0801|Human-Machine Interface,Control Server,Data Historian,Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Collection|Point & Tag Identification|T0861|Data Historian,Control Server,Human-Machine Interface|ics|2020-05-21
+Command and Control|Asymmetric Cryptography|T1573.002|Linux,macOS,Windows|enterprise|2020-03-16
+Command and Control|Symmetric Cryptography|T1573.001|Linux,Windows,macOS|enterprise|2020-03-16
+Command and Control|Encrypted Channel|T1573|Linux,macOS,Windows|enterprise|2020-03-16
+Command and Control|DNS|T1071.004|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Mail Protocols|T1071.003|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|File Transfer Protocols|T1071.002|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Web Protocols|T1071.001|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Protocol Tunneling|T1572|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Protocol Impersonation|T1001.003|Linux,Windows,macOS|enterprise|2020-03-15
+Command and Control|Steganography|T1001.002|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Junk Data|T1001.001|Linux,macOS,Windows|enterprise|2020-03-15
+Command and Control|Non-Standard Encoding|T1132.002|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Standard Encoding|T1132.001|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Domain Fronting|T1090.004|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Multi-hop Proxy|T1090.003|Linux,macOS,Windows,Network|enterprise|2020-03-14
+Command and Control|External Proxy|T1090.002|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Internal Proxy|T1090.001|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|One-Way Communication|T1102.003|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Bidirectional Communication|T1102.002|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Dead Drop Resolver|T1102.001|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|Non-Standard Port|T1571|Linux,macOS,Windows|enterprise|2020-03-14
+Command and Control|DNS Calculation|T1568.003|Linux,macOS,Windows|enterprise|2020-03-11
+Command and Control|Fast Flux DNS|T1568.001|Linux,macOS,Windows|enterprise|2020-03-11
+Command and Control|Domain Generation Algorithms|T1568.002|Linux,macOS,Windows|enterprise|2020-03-10
+Command and Control|Dynamic Resolution|T1568|Linux,macOS,Windows|enterprise|2020-03-10
+Command and Control|Remote Access Software|T1219|Linux,Windows,macOS|enterprise|2018-04-18
+Command and Control|Data Encoding|T1132|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Ingress Tool Transfer|T1105|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Multi-Stage Channels|T1104|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Web Service|T1102|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Non-Application Layer Protocol|T1095|Windows,Linux,macOS,Network|enterprise|2017-05-31
+Command and Control|Communication Through Removable Media|T1092|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Proxy|T1090|Linux,macOS,Windows,Network|enterprise|2017-05-31
+Command and Control|Application Layer Protocol|T1071|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Fallback Channels|T1008|Linux,Windows,macOS|enterprise|2017-05-31
+Command and Control|Data Obfuscation|T1001|Linux,macOS,Windows|enterprise|2017-05-31
+Command and Control|Commonly Used Port|T0885|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED,Human-Machine Interface,Control Server,Engineering Workstation|ics|2020-05-21
+Command and Control|Connection Proxy|T0884|None|ics|2020-05-21
+Command and Control|Standard Application Layer Protocol|T0869|Human-Machine Interface,Control Server,Data Historian,Engineering Workstation|ics|2020-05-21
+Credential Access|Container API|T1552.007|Containers|enterprise|2021-03-31
+Credential Access|Password Managers|T1555.005|Linux,macOS,Windows|enterprise|2021-01-22
+Credential Access|SAML Tokens|T1606.002|Azure AD,SaaS,Windows,Office 365,Google Workspace,IaaS|enterprise|2020-12-17
+Credential Access|Web Cookies|T1606.001|Linux,macOS,Windows,SaaS,IaaS|enterprise|2020-12-17
+Credential Access|Forge Web Credentials|T1606|SaaS,Windows,macOS,Linux,Azure AD,Office 365,Google Workspace,IaaS|enterprise|2020-12-17
+Credential Access|Windows Credential Manager|T1555.004|Windows|enterprise|2020-11-23
+Credential Access|Network Device Authentication|T1556.004|Network|enterprise|2020-10-19
+Credential Access|ARP Cache Poisoning|T1557.002|Linux,Windows,macOS|enterprise|2020-10-15
+Credential Access|AS-REP Roasting|T1558.004|Windows|enterprise|2020-08-24
+Credential Access|Pluggable Authentication Modules|T1556.003|Linux,macOS|enterprise|2020-06-26
+Credential Access|LSA Secrets|T1003.004|Windows|enterprise|2020-02-21
+Credential Access|Cached Domain Credentials|T1003.005|Windows|enterprise|2020-02-21
+Credential Access|Credentials from Web Browsers|T1555.003|Linux,macOS,Windows|enterprise|2020-02-12
+Credential Access|Securityd Memory|T1555.002|Linux,macOS|enterprise|2020-02-12
+Credential Access|Keychain|T1555.001|macOS|enterprise|2020-02-12
+Credential Access|Silver Ticket|T1558.002|Windows|enterprise|2020-02-11
+Credential Access|Golden Ticket|T1558.001|Windows|enterprise|2020-02-11
+Credential Access|Steal or Forge Kerberos Tickets|T1558|Windows,Linux,macOS|enterprise|2020-02-11
+Credential Access|LLMNR/NBT-NS Poisoning and SMB Relay|T1557.001|Windows|enterprise|2020-02-11
+Credential Access|Adversary-in-the-Middle|T1557|Windows,macOS,Linux|enterprise|2020-02-11
+Credential Access|Password Filter DLL|T1556.002|Windows|enterprise|2020-02-11
+Credential Access|Domain Controller Authentication|T1556.001|Windows|enterprise|2020-02-11
+Credential Access|Modify Authentication Process|T1556|Windows,Linux,macOS,Network|enterprise|2020-02-11
+Credential Access|Credentials from Password Stores|T1555|Linux,macOS,Windows|enterprise|2020-02-11
+Credential Access|Cloud Instance Metadata API|T1552.005|IaaS|enterprise|2020-02-11
+Credential Access|/etc/passwd and /etc/shadow|T1003.008|Linux|enterprise|2020-02-11
+Credential Access|Proc Filesystem|T1003.007|Linux|enterprise|2020-02-11
+Credential Access|DCSync|T1003.006|Windows|enterprise|2020-02-11
+Credential Access|Kerberoasting|T1558.003|Windows|enterprise|2020-02-11
+Credential Access|Group Policy Preferences|T1552.006|Windows|enterprise|2020-02-11
+Credential Access|NTDS|T1003.003|Windows|enterprise|2020-02-11
+Credential Access|Security Account Manager|T1003.002|Windows|enterprise|2020-02-11
+Credential Access|LSASS Memory|T1003.001|Windows|enterprise|2020-02-11
+Credential Access|Credential Stuffing|T1110.004|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-02-11
+Credential Access|Password Spraying|T1110.003|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-02-11
+Credential Access|Password Cracking|T1110.002|Linux,macOS,Windows,Office 365,Azure AD|enterprise|2020-02-11
+Credential Access|Password Guessing|T1110.001|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-02-11
+Credential Access|Private Keys|T1552.004|Linux,macOS,Windows|enterprise|2020-02-04
+Credential Access|Bash History|T1552.003|Linux,macOS|enterprise|2020-02-04
+Credential Access|Credentials in Registry|T1552.002|Windows|enterprise|2020-02-04
+Credential Access|Credentials In Files|T1552.001|Windows,IaaS,Linux,macOS,Containers|enterprise|2020-02-04
+Credential Access|Unsecured Credentials|T1552|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-02-04
+Credential Access|Steal Web Session Cookie|T1539|Linux,macOS,Windows,Office 365,SaaS,Google Workspace|enterprise|2019-10-08
+Credential Access|Steal Application Access Token|T1528|SaaS,Office 365,Azure AD,Google Workspace|enterprise|2019-09-04
+Credential Access|Exploitation for Credential Access|T1212|Linux,Windows,macOS|enterprise|2018-04-18
+Credential Access|Forced Authentication|T1187|Windows|enterprise|2018-01-16
+Credential Access|Two-Factor Authentication Interception|T1111|Linux,Windows,macOS|enterprise|2017-05-31
+Credential Access|Brute Force|T1110|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2017-05-31
+Credential Access|Network Sniffing|T1040|Linux,macOS,Windows,Network|enterprise|2017-05-31
+Credential Access|OS Credential Dumping|T1003|Windows,Linux,macOS|enterprise|2017-05-31
+Defense Evasion|Resource Forking|T1564.009|macOS|enterprise|2021-10-12
+Defense Evasion|Downgrade Attack|T1562.010|Windows,Linux,macOS|enterprise|2021-10-08
+Defense Evasion|Reflective Code Loading|T1620|macOS,Linux,Windows|enterprise|2021-10-05
+Defense Evasion|MMC|T1218.014|Windows|enterprise|2021-09-28
+Defense Evasion|Mavinject|T1218.013|Windows|enterprise|2021-09-22
+Defense Evasion|Double File Extension|T1036.007|Windows|enterprise|2021-08-04
+Defense Evasion|Safe Mode Boot|T1562.009|Windows|enterprise|2021-06-23
+Defense Evasion|Email Hiding Rules|T1564.008|Windows,Office 365,Linux,macOS|enterprise|2021-06-07
+Defense Evasion|HTML Smuggling|T1027.006|Windows,Linux,macOS|enterprise|2021-05-20
+Defense Evasion|Code Signing Policy Modification|T1553.006|Windows,macOS|enterprise|2021-04-23
+Defense Evasion|Build Image on Host|T1612|Containers|enterprise|2021-03-30
+Defense Evasion|Deploy Container|T1610|Containers|enterprise|2021-03-29
+Defense Evasion|Mark-of-the-Web Bypass|T1553.005|Windows|enterprise|2021-02-22
+Defense Evasion|Domain Trust Modification|T1484.002|Windows,Azure AD|enterprise|2020-12-28
+Defense Evasion|Group Policy Modification|T1484.001|Windows|enterprise|2020-12-28
+Defense Evasion|TFTP Boot|T1542.005|Network|enterprise|2020-10-20
+Defense Evasion|ROMMONkit|T1542.004|Network|enterprise|2020-10-20
+Defense Evasion|Downgrade System Image|T1601.002|Network|enterprise|2020-10-19
+Defense Evasion|Patch System Image|T1601.001|Network|enterprise|2020-10-19
+Defense Evasion|Modify System Image|T1601|Network|enterprise|2020-10-19
+Defense Evasion|Disable Crypto Hardware|T1600.002|Network|enterprise|2020-10-19
+Defense Evasion|Reduce Key Space|T1600.001|Network|enterprise|2020-10-19
+Defense Evasion|Weaken Encryption|T1600|Network|enterprise|2020-10-19
+Defense Evasion|Network Address Translation Traversal|T1599.001|Network|enterprise|2020-10-19
+Defense Evasion|Network Boundary Bridging|T1599|Network|enterprise|2020-10-19
+Defense Evasion|Disable Cloud Logs|T1562.008|IaaS|enterprise|2020-10-12
+Defense Evasion|VBA Stomping|T1564.007|Linux,Windows,macOS|enterprise|2020-09-17
+Defense Evasion|Verclsid|T1218.012|Windows|enterprise|2020-08-10
+Defense Evasion|Port Knocking|T1205.001|Linux,macOS,Windows,Network|enterprise|2020-07-01
+Defense Evasion|Run Virtual Instance|T1564.006|Linux,macOS,Windows|enterprise|2020-06-29
+Defense Evasion|Hidden File System|T1564.005|Linux,macOS,Windows|enterprise|2020-06-28
+Defense Evasion|Disable or Modify Cloud Firewall|T1562.007|IaaS|enterprise|2020-06-24
+Defense Evasion|Environmental Keying|T1480.001|Linux,macOS,Windows|enterprise|2020-06-23
+Defense Evasion|Revert Cloud Instance|T1578.004|IaaS|enterprise|2020-06-16
+Defense Evasion|Delete Cloud Instance|T1578.003|IaaS|enterprise|2020-06-16
+Defense Evasion|Create Snapshot|T1578.001|IaaS|enterprise|2020-06-09
+Defense Evasion|Create Cloud Instance|T1578.002|IaaS|enterprise|2020-05-14
+Defense Evasion|MSBuild|T1127.001|Windows|enterprise|2020-03-27
+Defense Evasion|Indicator Removal from Tools|T1027.005|Linux,macOS,Windows|enterprise|2020-03-19
+Defense Evasion|Indicator Blocking|T1562.006|Windows,macOS,Linux|enterprise|2020-03-19
+Defense Evasion|Compile After Delivery|T1027.004|Linux,macOS,Windows|enterprise|2020-03-16
+Defense Evasion|Cloud Accounts|T1078.004|Azure AD,Office 365,SaaS,IaaS,Google Workspace|enterprise|2020-03-13
+Defense Evasion|NTFS File Attributes|T1564.004|Windows|enterprise|2020-03-13
+Defense Evasion|Hidden Window|T1564.003|macOS,Windows|enterprise|2020-03-13
+Defense Evasion|Local Accounts|T1078.003|Linux,macOS,Windows,Containers|enterprise|2020-03-13
+Defense Evasion|Domain Accounts|T1078.002|Linux,macOS,Windows|enterprise|2020-03-13
+Defense Evasion|Default Accounts|T1078.001|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-03-13
+Defense Evasion|Hidden Users|T1564.002|macOS,Windows|enterprise|2020-03-13
+Defense Evasion|Time Based Evasion|T1497.003|Linux,macOS,Windows|enterprise|2020-03-06
+Defense Evasion|User Activity Based Checks|T1497.002|Linux,macOS,Windows|enterprise|2020-03-06
+Defense Evasion|System Checks|T1497.001|Linux,macOS,Windows|enterprise|2020-03-06
+Defense Evasion|Hidden Files and Directories|T1564.001|Windows,macOS,Linux|enterprise|2020-02-26
+Defense Evasion|Hide Artifacts|T1564|Linux,macOS,Windows,Office 365|enterprise|2020-02-26
+Defense Evasion|Install Root Certificate|T1553.004|Linux,macOS,Windows|enterprise|2020-02-21
+Defense Evasion|Disable or Modify System Firewall|T1562.004|Linux,macOS,Windows|enterprise|2020-02-21
+Defense Evasion|Impair Command History Logging|T1562.003|Linux,macOS,Windows|enterprise|2020-02-21
+Defense Evasion|Disable Windows Event Logging|T1562.002|Windows|enterprise|2020-02-21
+Defense Evasion|Disable or Modify Tools|T1562.001|Windows,macOS,Linux,Containers,IaaS|enterprise|2020-02-21
+Defense Evasion|Impair Defenses|T1562|Windows,Office 365,IaaS,Linux,macOS,Containers,Network|enterprise|2020-02-21
+Defense Evasion|SID-History Injection|T1134.005|Windows|enterprise|2020-02-18
+Defense Evasion|Parent PID Spoofing|T1134.004|Windows|enterprise|2020-02-18
+Defense Evasion|Make and Impersonate Token|T1134.003|Windows|enterprise|2020-02-18
+Defense Evasion|Create Process with Token|T1134.002|Windows|enterprise|2020-02-18
+Defense Evasion|Token Impersonation/Theft|T1134.001|Windows|enterprise|2020-02-18
+Defense Evasion|Space after Filename|T1036.006|Linux,macOS|enterprise|2020-02-10
+Defense Evasion|Match Legitimate Name or Location|T1036.005|Linux,macOS,Windows,Containers|enterprise|2020-02-10
+Defense Evasion|Masquerade Task or Service|T1036.004|Windows,Linux,macOS|enterprise|2020-02-10
+Defense Evasion|Rename System Utilities|T1036.003|Linux,macOS,Windows|enterprise|2020-02-10
+Defense Evasion|Right-to-Left Override|T1036.002|Linux,macOS,Windows|enterprise|2020-02-10
+Defense Evasion|Invalid Code Signature|T1036.001|macOS,Windows|enterprise|2020-02-10
+Defense Evasion|SIP and Trust Provider Hijacking|T1553.003|Windows|enterprise|2020-02-05
+Defense Evasion|Code Signing|T1553.002|macOS,Windows|enterprise|2020-02-05
+Defense Evasion|Gatekeeper Bypass|T1553.001|macOS|enterprise|2020-02-05
+Defense Evasion|Subvert Trust Controls|T1553|Windows,macOS,Linux|enterprise|2020-02-05
+Defense Evasion|Steganography|T1027.003|Linux,macOS,Windows|enterprise|2020-02-05
+Defense Evasion|Software Packing|T1027.002|macOS,Windows|enterprise|2020-02-05
+Defense Evasion|Binary Padding|T1027.001|Linux,macOS,Windows|enterprise|2020-02-05
+Defense Evasion|Linux and Mac File and Directory Permissions Modification|T1222.002|macOS,Linux|enterprise|2020-02-04
+Defense Evasion|Windows File and Directory Permissions Modification|T1222.001|Windows|enterprise|2020-02-04
+Defense Evasion|PubPrn|T1216.001|Windows|enterprise|2020-02-03
+Defense Evasion|Timestomp|T1070.006|Linux,macOS,Windows|enterprise|2020-01-31
+Defense Evasion|Network Share Connection Removal|T1070.005|Windows|enterprise|2020-01-31
+Defense Evasion|File Deletion|T1070.004|Linux,macOS,Windows|enterprise|2020-01-31
+Defense Evasion|Clear Command History|T1070.003|Linux,macOS,Windows|enterprise|2020-01-31
+Defense Evasion|Web Session Cookie|T1550.004|Office 365,SaaS,Google Workspace,IaaS|enterprise|2020-01-30
+Defense Evasion|Application Access Token|T1550.001|Office 365,SaaS,Google Workspace|enterprise|2020-01-30
+Defense Evasion|Pass the Ticket|T1550.003|Windows|enterprise|2020-01-30
+Defense Evasion|Pass the Hash|T1550.002|Windows|enterprise|2020-01-30
+Defense Evasion|Use Alternate Authentication Material|T1550|Windows,Office 365,SaaS,Google Workspace,IaaS|enterprise|2020-01-30
+Defense Evasion|Clear Linux or Mac System Logs|T1070.002|Linux,macOS|enterprise|2020-01-28
+Defense Evasion|Clear Windows Event Logs|T1070.001|Windows|enterprise|2020-01-28
+Defense Evasion|Odbcconf|T1218.008|Windows|enterprise|2020-01-24
+Defense Evasion|Msiexec|T1218.007|Windows|enterprise|2020-01-24
+Defense Evasion|Control Panel|T1218.002|Windows|enterprise|2020-01-23
+Defense Evasion|Regsvr32|T1218.010|Windows|enterprise|2020-01-23
+Defense Evasion|Regsvcs/Regasm|T1218.009|Windows|enterprise|2020-01-23
+Defense Evasion|Mshta|T1218.005|Windows|enterprise|2020-01-23
+Defense Evasion|InstallUtil|T1218.004|Windows|enterprise|2020-01-23
+Defense Evasion|Compiled HTML File|T1218.001|Windows|enterprise|2020-01-23
+Defense Evasion|CMSTP|T1218.003|Windows|enterprise|2020-01-23
+Defense Evasion|Rundll32|T1218.011|Windows|enterprise|2020-01-23
+Defense Evasion|Process Hollowing|T1055.012|Windows|enterprise|2020-01-14
+Defense Evasion|Process Doppelgänging|T1055.013|Windows|enterprise|2020-01-14
+Defense Evasion|Extra Window Memory Injection|T1055.011|Windows|enterprise|2020-01-14
+Defense Evasion|VDSO Hijacking|T1055.014|Linux|enterprise|2020-01-14
+Defense Evasion|Proc Memory|T1055.009|Linux|enterprise|2020-01-14
+Defense Evasion|Ptrace System Calls|T1055.008|Linux|enterprise|2020-01-14
+Defense Evasion|Thread Local Storage|T1055.005|Windows|enterprise|2020-01-14
+Defense Evasion|Asynchronous Procedure Call|T1055.004|Windows|enterprise|2020-01-14
+Defense Evasion|Thread Execution Hijacking|T1055.003|Windows|enterprise|2020-01-14
+Defense Evasion|Portable Executable Injection|T1055.002|Windows|enterprise|2020-01-14
+Defense Evasion|Dynamic-link Library Injection|T1055.001|Windows|enterprise|2020-01-14
+Defense Evasion|Pre-OS Boot|T1542|Linux,Windows,Network|enterprise|2019-11-13
+Defense Evasion|Unused/Unsupported Cloud Regions|T1535|IaaS|enterprise|2019-09-04
+Defense Evasion|Modify Cloud Compute Infrastructure|T1578|IaaS|enterprise|2019-08-30
+Defense Evasion|Virtualization/Sandbox Evasion|T1497|Windows,macOS,Linux|enterprise|2019-04-17
+Defense Evasion|Domain Policy Modification|T1484|Windows,Azure AD|enterprise|2019-03-07
+Defense Evasion|Execution Guardrails|T1480|Linux,macOS,Windows|enterprise|2019-01-31
+Defense Evasion|Template Injection|T1221|Windows|enterprise|2018-10-17
+Defense Evasion|File and Directory Permissions Modification|T1222|Linux,Windows,macOS|enterprise|2018-10-17
+Defense Evasion|XSL Script Processing|T1220|Windows|enterprise|2018-10-17
+Defense Evasion|Exploitation for Defense Evasion|T1211|Linux,Windows,macOS|enterprise|2018-04-18
+Defense Evasion|BITS Jobs|T1197|Windows|enterprise|2018-04-18
+Defense Evasion|Signed Binary Proxy Execution|T1218|Windows|enterprise|2018-04-18
+Defense Evasion|Indirect Command Execution|T1202|Windows|enterprise|2018-04-18
+Defense Evasion|Rogue Domain Controller|T1207|Windows|enterprise|2018-04-18
+Defense Evasion|Signed Script Proxy Execution|T1216|Windows|enterprise|2018-04-18
+Defense Evasion|Traffic Signaling|T1205|Linux,macOS,Windows,Network|enterprise|2018-04-18
+Defense Evasion|Deobfuscate/Decode Files or Information|T1140|Windows,Linux,macOS|enterprise|2017-12-14
+Defense Evasion|Access Token Manipulation|T1134|Windows|enterprise|2017-12-14
+Defense Evasion|Trusted Developer Utilities Proxy Execution|T1127|Windows|enterprise|2017-05-31
+Defense Evasion|Modify Registry|T1112|Windows|enterprise|2017-05-31
+Defense Evasion|Valid Accounts|T1078|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2017-05-31
+Defense Evasion|Indicator Removal on Host|T1070|Linux,macOS,Windows,Containers|enterprise|2017-05-31
+Defense Evasion|Process Injection|T1055|Linux,macOS,Windows|enterprise|2017-05-31
+Defense Evasion|Masquerading|T1036|Linux,macOS,Windows,Containers|enterprise|2017-05-31
+Defense Evasion|Obfuscated Files or Information|T1027|Linux,macOS,Windows|enterprise|2017-05-31
+Defense Evasion|Rootkit|T1014|Linux,macOS,Windows|enterprise|2017-05-31
+Defense Evasion|Direct Volume Access|T1006|Windows|enterprise|2017-05-31
+Discovery|Cloud Storage Object Discovery|T1619|IaaS|enterprise|2021-10-01
+Discovery|System Language Discovery|T1614.001|Windows,Linux,macOS|enterprise|2021-08-18
+Discovery|Group Policy Discovery|T1615|Windows|enterprise|2021-08-06
+Discovery|System Location Discovery|T1614|Windows,Linux,macOS,IaaS|enterprise|2021-04-01
+Discovery|Container and Resource Discovery|T1613|Containers|enterprise|2021-03-31
+Discovery|Internet Connection Discovery|T1016.001|Windows,Linux,macOS|enterprise|2021-03-17
+Discovery|Cloud Infrastructure Discovery|T1580|IaaS|enterprise|2020-08-20
+Discovery|Local Groups|T1069.001|Linux,macOS,Windows|enterprise|2020-03-12
+Discovery|Security Software Discovery|T1518.001|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-02-21
+Discovery|Cloud Groups|T1069.003|Azure AD,Office 365,SaaS,IaaS,Google Workspace|enterprise|2020-02-21
+Discovery|Domain Groups|T1069.002|Linux,macOS,Windows|enterprise|2020-02-21
+Discovery|Cloud Account|T1087.004|Azure AD,Office 365,SaaS,IaaS,Google Workspace|enterprise|2020-02-21
+Discovery|Email Account|T1087.003|Windows,Office 365,Google Workspace|enterprise|2020-02-21
+Discovery|Domain Account|T1087.002|Linux,macOS,Windows|enterprise|2020-02-21
+Discovery|Local Account|T1087.001|Linux,macOS,Windows|enterprise|2020-02-21
+Discovery|Software Discovery|T1518|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2019-09-16
+Discovery|Cloud Service Dashboard|T1538|Azure AD,Office 365,IaaS,Google Workspace|enterprise|2019-08-30
+Discovery|Cloud Service Discovery|T1526|Azure AD,Office 365,SaaS,IaaS,Google Workspace|enterprise|2019-08-30
+Discovery|Domain Trust Discovery|T1482|Windows|enterprise|2019-02-14
+Discovery|Browser Bookmark Discovery|T1217|Linux,Windows,macOS|enterprise|2018-04-18
+Discovery|Password Policy Discovery|T1201|Windows,Linux,macOS,IaaS|enterprise|2018-04-18
+Discovery|Network Share Discovery|T1135|macOS,Windows,Linux|enterprise|2017-12-14
+Discovery|System Time Discovery|T1124|Windows|enterprise|2017-05-31
+Discovery|Peripheral Device Discovery|T1120|Windows,macOS|enterprise|2017-05-31
+Discovery|Account Discovery|T1087|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2017-05-31
+Discovery|File and Directory Discovery|T1083|Linux,macOS,Windows|enterprise|2017-05-31
+Discovery|System Information Discovery|T1082|Windows,IaaS,Linux,macOS|enterprise|2017-05-31
+Discovery|Permission Groups Discovery|T1069|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2017-05-31
+Discovery|Process Discovery|T1057|Linux,macOS,Windows|enterprise|2017-05-31
+Discovery|System Network Connections Discovery|T1049|Windows,IaaS,Linux,macOS|enterprise|2017-05-31
+Discovery|Network Service Scanning|T1046|Windows,IaaS,Linux,macOS,Containers|enterprise|2017-05-31
+Discovery|System Owner/User Discovery|T1033|Linux,macOS,Windows|enterprise|2017-05-31
+Discovery|Remote System Discovery|T1018|Linux,macOS,Windows|enterprise|2017-05-31
+Discovery|System Network Configuration Discovery|T1016|Linux,macOS,Windows|enterprise|2017-05-31
+Discovery|Query Registry|T1012|Windows|enterprise|2017-05-31
+Discovery|Application Window Discovery|T1010|macOS,Windows|enterprise|2017-05-31
+Discovery|System Service Discovery|T1007|Windows,macOS|enterprise|2017-05-31
+Discovery|Remote System Information Discovery|T0888|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED|ics|2021-04-13
+Discovery|Network Connection Enumeration|T0840|Human-Machine Interface|ics|2020-05-21
+Discovery|Remote System Discovery|T0846|Control Server,Data Historian,Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED,Human-Machine Interface|ics|2020-05-21
+Discovery|Wireless Sniffing|T0887|None|ics|2020-05-21
+Discovery|Network Sniffing|T0842|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Evasion|Resource Forking|T1564.009|macOS|enterprise|2021-10-12
+Evasion|Downgrade Attack|T1562.010|Windows,Linux,macOS|enterprise|2021-10-08
+Evasion|Reflective Code Loading|T1620|macOS,Linux,Windows|enterprise|2021-10-05
+Evasion|MMC|T1218.014|Windows|enterprise|2021-09-28
+Evasion|Mavinject|T1218.013|Windows|enterprise|2021-09-22
+Evasion|Double File Extension|T1036.007|Windows|enterprise|2021-08-04
+Evasion|Safe Mode Boot|T1562.009|Windows|enterprise|2021-06-23
+Evasion|Email Hiding Rules|T1564.008|Windows,Office 365,Linux,macOS|enterprise|2021-06-07
+Evasion|HTML Smuggling|T1027.006|Windows,Linux,macOS|enterprise|2021-05-20
+Evasion|Code Signing Policy Modification|T1553.006|Windows,macOS|enterprise|2021-04-23
+Evasion|Build Image on Host|T1612|Containers|enterprise|2021-03-30
+Evasion|Deploy Container|T1610|Containers|enterprise|2021-03-29
+Evasion|Mark-of-the-Web Bypass|T1553.005|Windows|enterprise|2021-02-22
+Evasion|Domain Trust Modification|T1484.002|Windows,Azure AD|enterprise|2020-12-28
+Evasion|Group Policy Modification|T1484.001|Windows|enterprise|2020-12-28
+Evasion|TFTP Boot|T1542.005|Network|enterprise|2020-10-20
+Evasion|ROMMONkit|T1542.004|Network|enterprise|2020-10-20
+Evasion|Downgrade System Image|T1601.002|Network|enterprise|2020-10-19
+Evasion|Patch System Image|T1601.001|Network|enterprise|2020-10-19
+Evasion|Modify System Image|T1601|Network|enterprise|2020-10-19
+Evasion|Disable Crypto Hardware|T1600.002|Network|enterprise|2020-10-19
+Evasion|Reduce Key Space|T1600.001|Network|enterprise|2020-10-19
+Evasion|Weaken Encryption|T1600|Network|enterprise|2020-10-19
+Evasion|Network Address Translation Traversal|T1599.001|Network|enterprise|2020-10-19
+Evasion|Network Boundary Bridging|T1599|Network|enterprise|2020-10-19
+Evasion|Disable Cloud Logs|T1562.008|IaaS|enterprise|2020-10-12
+Evasion|VBA Stomping|T1564.007|Linux,Windows,macOS|enterprise|2020-09-17
+Evasion|Verclsid|T1218.012|Windows|enterprise|2020-08-10
+Evasion|Port Knocking|T1205.001|Linux,macOS,Windows,Network|enterprise|2020-07-01
+Evasion|Run Virtual Instance|T1564.006|Linux,macOS,Windows|enterprise|2020-06-29
+Evasion|Hidden File System|T1564.005|Linux,macOS,Windows|enterprise|2020-06-28
+Evasion|Disable or Modify Cloud Firewall|T1562.007|IaaS|enterprise|2020-06-24
+Evasion|Environmental Keying|T1480.001|Linux,macOS,Windows|enterprise|2020-06-23
+Evasion|Revert Cloud Instance|T1578.004|IaaS|enterprise|2020-06-16
+Evasion|Delete Cloud Instance|T1578.003|IaaS|enterprise|2020-06-16
+Evasion|Create Snapshot|T1578.001|IaaS|enterprise|2020-06-09
+Evasion|Create Cloud Instance|T1578.002|IaaS|enterprise|2020-05-14
+Evasion|MSBuild|T1127.001|Windows|enterprise|2020-03-27
+Evasion|Indicator Removal from Tools|T1027.005|Linux,macOS,Windows|enterprise|2020-03-19
+Evasion|Indicator Blocking|T1562.006|Windows,macOS,Linux|enterprise|2020-03-19
+Evasion|Compile After Delivery|T1027.004|Linux,macOS,Windows|enterprise|2020-03-16
+Evasion|Cloud Accounts|T1078.004|Azure AD,Office 365,SaaS,IaaS,Google Workspace|enterprise|2020-03-13
+Evasion|NTFS File Attributes|T1564.004|Windows|enterprise|2020-03-13
+Evasion|Hidden Window|T1564.003|macOS,Windows|enterprise|2020-03-13
+Evasion|Local Accounts|T1078.003|Linux,macOS,Windows,Containers|enterprise|2020-03-13
+Evasion|Domain Accounts|T1078.002|Linux,macOS,Windows|enterprise|2020-03-13
+Evasion|Default Accounts|T1078.001|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2020-03-13
+Evasion|Hidden Users|T1564.002|macOS,Windows|enterprise|2020-03-13
+Evasion|Time Based Evasion|T1497.003|Linux,macOS,Windows|enterprise|2020-03-06
+Evasion|User Activity Based Checks|T1497.002|Linux,macOS,Windows|enterprise|2020-03-06
+Evasion|System Checks|T1497.001|Linux,macOS,Windows|enterprise|2020-03-06
+Evasion|Hidden Files and Directories|T1564.001|Windows,macOS,Linux|enterprise|2020-02-26
+Evasion|Hide Artifacts|T1564|Linux,macOS,Windows,Office 365|enterprise|2020-02-26
+Evasion|Install Root Certificate|T1553.004|Linux,macOS,Windows|enterprise|2020-02-21
+Evasion|Disable or Modify System Firewall|T1562.004|Linux,macOS,Windows|enterprise|2020-02-21
+Evasion|Impair Command History Logging|T1562.003|Linux,macOS,Windows|enterprise|2020-02-21
+Evasion|Disable Windows Event Logging|T1562.002|Windows|enterprise|2020-02-21
+Evasion|Disable or Modify Tools|T1562.001|Windows,macOS,Linux,Containers,IaaS|enterprise|2020-02-21
+Evasion|Impair Defenses|T1562|Windows,Office 365,IaaS,Linux,macOS,Containers,Network|enterprise|2020-02-21
+Evasion|SID-History Injection|T1134.005|Windows|enterprise|2020-02-18
+Evasion|Parent PID Spoofing|T1134.004|Windows|enterprise|2020-02-18
+Evasion|Make and Impersonate Token|T1134.003|Windows|enterprise|2020-02-18
+Evasion|Create Process with Token|T1134.002|Windows|enterprise|2020-02-18
+Evasion|Token Impersonation/Theft|T1134.001|Windows|enterprise|2020-02-18
+Evasion|Space after Filename|T1036.006|Linux,macOS|enterprise|2020-02-10
+Evasion|Match Legitimate Name or Location|T1036.005|Linux,macOS,Windows,Containers|enterprise|2020-02-10
+Evasion|Masquerade Task or Service|T1036.004|Windows,Linux,macOS|enterprise|2020-02-10
+Evasion|Rename System Utilities|T1036.003|Linux,macOS,Windows|enterprise|2020-02-10
+Evasion|Right-to-Left Override|T1036.002|Linux,macOS,Windows|enterprise|2020-02-10
+Evasion|Invalid Code Signature|T1036.001|macOS,Windows|enterprise|2020-02-10
+Evasion|SIP and Trust Provider Hijacking|T1553.003|Windows|enterprise|2020-02-05
+Evasion|Code Signing|T1553.002|macOS,Windows|enterprise|2020-02-05
+Evasion|Gatekeeper Bypass|T1553.001|macOS|enterprise|2020-02-05
+Evasion|Subvert Trust Controls|T1553|Windows,macOS,Linux|enterprise|2020-02-05
+Evasion|Steganography|T1027.003|Linux,macOS,Windows|enterprise|2020-02-05
+Evasion|Software Packing|T1027.002|macOS,Windows|enterprise|2020-02-05
+Evasion|Binary Padding|T1027.001|Linux,macOS,Windows|enterprise|2020-02-05
+Evasion|Linux and Mac File and Directory Permissions Modification|T1222.002|macOS,Linux|enterprise|2020-02-04
+Evasion|Windows File and Directory Permissions Modification|T1222.001|Windows|enterprise|2020-02-04
+Evasion|PubPrn|T1216.001|Windows|enterprise|2020-02-03
+Evasion|Timestomp|T1070.006|Linux,macOS,Windows|enterprise|2020-01-31
+Evasion|Network Share Connection Removal|T1070.005|Windows|enterprise|2020-01-31
+Evasion|File Deletion|T1070.004|Linux,macOS,Windows|enterprise|2020-01-31
+Evasion|Clear Command History|T1070.003|Linux,macOS,Windows|enterprise|2020-01-31
+Evasion|Web Session Cookie|T1550.004|Office 365,SaaS,Google Workspace,IaaS|enterprise|2020-01-30
+Evasion|Application Access Token|T1550.001|Office 365,SaaS,Google Workspace|enterprise|2020-01-30
+Evasion|Pass the Ticket|T1550.003|Windows|enterprise|2020-01-30
+Evasion|Pass the Hash|T1550.002|Windows|enterprise|2020-01-30
+Evasion|Use Alternate Authentication Material|T1550|Windows,Office 365,SaaS,Google Workspace,IaaS|enterprise|2020-01-30
+Evasion|Clear Linux or Mac System Logs|T1070.002|Linux,macOS|enterprise|2020-01-28
+Evasion|Clear Windows Event Logs|T1070.001|Windows|enterprise|2020-01-28
+Evasion|Odbcconf|T1218.008|Windows|enterprise|2020-01-24
+Evasion|Msiexec|T1218.007|Windows|enterprise|2020-01-24
+Evasion|Control Panel|T1218.002|Windows|enterprise|2020-01-23
+Evasion|Regsvr32|T1218.010|Windows|enterprise|2020-01-23
+Evasion|Regsvcs/Regasm|T1218.009|Windows|enterprise|2020-01-23
+Evasion|Mshta|T1218.005|Windows|enterprise|2020-01-23
+Evasion|InstallUtil|T1218.004|Windows|enterprise|2020-01-23
+Evasion|Compiled HTML File|T1218.001|Windows|enterprise|2020-01-23
+Evasion|CMSTP|T1218.003|Windows|enterprise|2020-01-23
+Evasion|Rundll32|T1218.011|Windows|enterprise|2020-01-23
+Evasion|Process Hollowing|T1055.012|Windows|enterprise|2020-01-14
+Evasion|Process Doppelgänging|T1055.013|Windows|enterprise|2020-01-14
+Evasion|Extra Window Memory Injection|T1055.011|Windows|enterprise|2020-01-14
+Evasion|VDSO Hijacking|T1055.014|Linux|enterprise|2020-01-14
+Evasion|Proc Memory|T1055.009|Linux|enterprise|2020-01-14
+Evasion|Ptrace System Calls|T1055.008|Linux|enterprise|2020-01-14
+Evasion|Thread Local Storage|T1055.005|Windows|enterprise|2020-01-14
+Evasion|Asynchronous Procedure Call|T1055.004|Windows|enterprise|2020-01-14
+Evasion|Thread Execution Hijacking|T1055.003|Windows|enterprise|2020-01-14
+Evasion|Portable Executable Injection|T1055.002|Windows|enterprise|2020-01-14
+Evasion|Dynamic-link Library Injection|T1055.001|Windows|enterprise|2020-01-14
+Evasion|Pre-OS Boot|T1542|Linux,Windows,Network|enterprise|2019-11-13
+Evasion|Unused/Unsupported Cloud Regions|T1535|IaaS|enterprise|2019-09-04
+Evasion|Modify Cloud Compute Infrastructure|T1578|IaaS|enterprise|2019-08-30
+Evasion|Virtualization/Sandbox Evasion|T1497|Windows,macOS,Linux|enterprise|2019-04-17
+Evasion|Domain Policy Modification|T1484|Windows,Azure AD|enterprise|2019-03-07
+Evasion|Execution Guardrails|T1480|Linux,macOS,Windows|enterprise|2019-01-31
+Evasion|Template Injection|T1221|Windows|enterprise|2018-10-17
+Evasion|File and Directory Permissions Modification|T1222|Linux,Windows,macOS|enterprise|2018-10-17
+Evasion|XSL Script Processing|T1220|Windows|enterprise|2018-10-17
+Evasion|Exploitation for Defense Evasion|T1211|Linux,Windows,macOS|enterprise|2018-04-18
+Evasion|BITS Jobs|T1197|Windows|enterprise|2018-04-18
+Evasion|Signed Binary Proxy Execution|T1218|Windows|enterprise|2018-04-18
+Evasion|Indirect Command Execution|T1202|Windows|enterprise|2018-04-18
+Evasion|Rogue Domain Controller|T1207|Windows|enterprise|2018-04-18
+Evasion|Signed Script Proxy Execution|T1216|Windows|enterprise|2018-04-18
+Evasion|Traffic Signaling|T1205|Linux,macOS,Windows,Network|enterprise|2018-04-18
+Evasion|Deobfuscate/Decode Files or Information|T1140|Windows,Linux,macOS|enterprise|2017-12-14
+Evasion|Access Token Manipulation|T1134|Windows|enterprise|2017-12-14
+Evasion|Trusted Developer Utilities Proxy Execution|T1127|Windows|enterprise|2017-05-31
+Evasion|Modify Registry|T1112|Windows|enterprise|2017-05-31
+Evasion|Valid Accounts|T1078|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2017-05-31
+Evasion|Indicator Removal on Host|T1070|Linux,macOS,Windows,Containers|enterprise|2017-05-31
+Evasion|Process Injection|T1055|Linux,macOS,Windows|enterprise|2017-05-31
+Evasion|Masquerading|T1036|Linux,macOS,Windows,Containers|enterprise|2017-05-31
+Evasion|Obfuscated Files or Information|T1027|Linux,macOS,Windows|enterprise|2017-05-31
+Evasion|Rootkit|T1014|Linux,macOS,Windows|enterprise|2017-05-31
+Evasion|Direct Volume Access|T1006|Windows|enterprise|2017-05-31
+Evasion|Masquerading|T0849|Human-Machine Interface,Control Server|ics|2020-05-21
+Evasion|Rootkit|T0851|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Evasion|Indicator Removal on Host|T0872|Human-Machine Interface,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Evasion|Spoof Reporting Message|T0856|Control Server|ics|2020-05-21
+Evasion|Exploitation for Evasion|T0820|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Execution|Malicious Image|T1204.003|IaaS,Containers|enterprise|2021-03-30
+Execution|Container Orchestration Job|T1053.007|Containers|enterprise|2021-03-29
+Execution|Container Administration Command|T1609|Containers|enterprise|2021-03-29
+Execution|Network Device CLI|T1059.008|Network|enterprise|2020-10-20
+Execution|Systemd Timers|T1053.006|Linux|enterprise|2020-10-12
+Execution|JavaScript|T1059.007|Windows,macOS,Linux|enterprise|2020-06-23
+Execution|Malicious File|T1204.002|Linux,macOS,Windows|enterprise|2020-03-11
+Execution|Malicious Link|T1204.001|Linux,macOS,Windows|enterprise|2020-03-11
+Execution|Service Execution|T1569.002|Windows|enterprise|2020-03-10
+Execution|Launchctl|T1569.001|macOS|enterprise|2020-03-10
+Execution|System Services|T1569|Windows,macOS|enterprise|2020-03-10
+Execution|Python|T1059.006|Linux,Windows,macOS|enterprise|2020-03-09
+Execution|Visual Basic|T1059.005|Windows,macOS,Linux|enterprise|2020-03-09
+Execution|Unix Shell|T1059.004|macOS,Linux|enterprise|2020-03-09
+Execution|Windows Command Shell|T1059.003|Windows|enterprise|2020-03-09
+Execution|AppleScript|T1059.002|macOS|enterprise|2020-03-09
+Execution|PowerShell|T1059.001|Windows|enterprise|2020-03-09
+Execution|Dynamic Data Exchange|T1559.002|Windows|enterprise|2020-02-12
+Execution|Component Object Model|T1559.001|Windows|enterprise|2020-02-12
+Execution|Inter-Process Communication|T1559|Windows,macOS|enterprise|2020-02-12
+Execution|Cron|T1053.003|Linux,macOS|enterprise|2019-12-03
+Execution|At (Linux)|T1053.001|Linux|enterprise|2019-12-03
+Execution|Scheduled Task|T1053.005|Windows|enterprise|2019-11-27
+Execution|At (Windows)|T1053.002|Windows|enterprise|2019-11-27
+Execution|Exploitation for Client Execution|T1203|Linux,Windows,macOS|enterprise|2018-04-18
+Execution|User Execution|T1204|Linux,Windows,macOS,IaaS,Containers|enterprise|2018-04-18
+Execution|Shared Modules|T1129|Windows|enterprise|2017-05-31
+Execution|Native API|T1106|Windows,macOS,Linux|enterprise|2017-05-31
+Execution|Software Deployment Tools|T1072|Linux,macOS,Windows|enterprise|2017-05-31
+Execution|Command and Scripting Interpreter|T1059|Linux,macOS,Windows,Network|enterprise|2017-05-31
+Execution|Scheduled Task/Job|T1053|Windows,Linux,macOS,Containers|enterprise|2017-05-31
+Execution|Windows Management Instrumentation|T1047|Windows|enterprise|2017-05-31
+Execution|Native API|T0834|Control Server,Data Historian,Field Controller/RTU/PLC/IED,Human-Machine Interface,Input/Output Server,Safety Instrumented System/Protection Relay|ics|2021-04-13
+Execution|Modify Controller Tasking|T0821|Field Controller/RTU/PLC/IED|ics|2021-04-13
+Execution|Execution through API|T0871|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Execution|Change Operating Mode|T0858|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Execution|Graphical User Interface|T0823|Human-Machine Interface|ics|2020-05-21
+Execution|Scripting|T0853|Engineering Workstation|ics|2020-05-21
+Execution|Command-Line Interface|T0807|Control Server,Data Historian,Field Controller/RTU/PLC/IED,Human-Machine Interface,Input/Output Server|ics|2020-05-21
+Execution|Hooking|T0874|Engineering Workstation|ics|2020-05-21
+Execution|User Execution|T0863|Engineering Workstation,Human-Machine Interface|ics|2020-05-21
+Exfiltration|Traffic Duplication|T1020.001|Network|enterprise|2020-10-19
+Exfiltration|Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol|T1048.003|Linux,macOS,Windows|enterprise|2020-03-15
+Exfiltration|Exfiltration Over Asymmetric Encrypted Non-C2 Protocol|T1048.002|Linux,macOS,Windows|enterprise|2020-03-15
+Exfiltration|Exfiltration Over Symmetric Encrypted Non-C2 Protocol|T1048.001|Linux,macOS,Windows|enterprise|2020-03-15
+Exfiltration|Exfiltration over USB|T1052.001|Linux,macOS,Windows|enterprise|2020-03-11
+Exfiltration|Exfiltration Over Bluetooth|T1011.001|Linux,macOS,Windows|enterprise|2020-03-09
+Exfiltration|Exfiltration to Cloud Storage|T1567.002|Linux,macOS,Windows|enterprise|2020-03-09
+Exfiltration|Exfiltration to Code Repository|T1567.001|Linux,macOS,Windows|enterprise|2020-03-09
+Exfiltration|Exfiltration Over Web Service|T1567|Linux,macOS,Windows|enterprise|2020-03-09
+Exfiltration|Transfer Data to Cloud Account|T1537|IaaS|enterprise|2019-08-30
+Exfiltration|Exfiltration Over Physical Medium|T1052|Linux,macOS,Windows|enterprise|2017-05-31
+Exfiltration|Exfiltration Over Alternative Protocol|T1048|Linux,macOS,Windows|enterprise|2017-05-31
+Exfiltration|Exfiltration Over C2 Channel|T1041|Linux,macOS,Windows|enterprise|2017-05-31
+Exfiltration|Data Transfer Size Limits|T1030|Linux,macOS,Windows|enterprise|2017-05-31
+Exfiltration|Scheduled Transfer|T1029|Linux,macOS,Windows|enterprise|2017-05-31
+Exfiltration|Automated Exfiltration|T1020|Linux,macOS,Windows,Network|enterprise|2017-05-31
+Exfiltration|Exfiltration Over Other Network Medium|T1011|Linux,macOS,Windows|enterprise|2017-05-31
+Impact|Reflection Amplification|T1498.002|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-03-02
+Impact|Direct Network Flood|T1498.001|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-03-02
+Impact|Runtime Data Manipulation|T1565.003|Linux,macOS,Windows|enterprise|2020-03-02
+Impact|Transmitted Data Manipulation|T1565.002|Linux,macOS,Windows|enterprise|2020-03-02
+Impact|Stored Data Manipulation|T1565.001|Linux,macOS,Windows|enterprise|2020-03-02
+Impact|Data Manipulation|T1565|Linux,macOS,Windows|enterprise|2020-03-02
+Impact|Disk Structure Wipe|T1561.002|Linux,macOS,Windows|enterprise|2020-02-20
+Impact|Disk Content Wipe|T1561.001|Linux,macOS,Windows|enterprise|2020-02-20
+Impact|Disk Wipe|T1561|Linux,macOS,Windows|enterprise|2020-02-20
+Impact|Application or System Exploitation|T1499.004|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-02-20
+Impact|Application Exhaustion Flood|T1499.003|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-02-20
+Impact|Service Exhaustion Flood|T1499.002|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace|enterprise|2020-02-20
+Impact|OS Exhaustion Flood|T1499.001|Linux,macOS,Windows|enterprise|2020-02-20
+Impact|External Defacement|T1491.002|Windows,IaaS,Linux,macOS|enterprise|2020-02-20
+Impact|Internal Defacement|T1491.001|Linux,macOS,Windows|enterprise|2020-02-20
+Impact|Account Access Removal|T1531|Linux,macOS,Windows|enterprise|2019-10-09
+Impact|System Shutdown/Reboot|T1529|Linux,macOS,Windows|enterprise|2019-10-04
+Impact|Endpoint Denial of Service|T1499|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2019-04-18
+Impact|Network Denial of Service|T1498|Windows,Azure AD,Office 365,SaaS,IaaS,Linux,macOS,Google Workspace,Containers|enterprise|2019-04-17
+Impact|Resource Hijacking|T1496|Windows,IaaS,Linux,macOS,Containers|enterprise|2019-04-17
+Impact|Firmware Corruption|T1495|Linux,macOS,Windows|enterprise|2019-04-12
+Impact|Defacement|T1491|Windows,IaaS,Linux,macOS|enterprise|2019-04-08
+Impact|Inhibit System Recovery|T1490|Windows,macOS,Linux|enterprise|2019-04-02
+Impact|Service Stop|T1489|Windows,Linux,macOS|enterprise|2019-03-29
+Impact|Data Encrypted for Impact|T1486|Linux,macOS,Windows,IaaS|enterprise|2019-03-15
+Impact|Data Destruction|T1485|Windows,IaaS,Linux,macOS|enterprise|2019-03-14
+Impact|Loss of Protection|T0837|None|ics|2021-04-12
+Impact|Denial of View|T0815|None|ics|2020-05-21
+Impact|Loss of Availability|T0826|Windows|ics|2020-05-21
+Impact|Loss of View|T0829|Human-Machine Interface,Engineering Workstation|ics|2020-05-21
+Impact|Theft of Operational Information|T0882|None|ics|2020-05-21
+Impact|Loss of Control|T0827|None|ics|2020-05-21
+Impact|Loss of Safety|T0880|None|ics|2020-05-21
+Impact|Manipulation of View|T0832|Engineering Workstation,Human-Machine Interface,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Impact|Loss of Productivity and Revenue|T0828|None|ics|2020-05-21
+Impact|Damage to Property|T0879|None|ics|2020-05-21
+Impact|Denial of Control|T0813|Windows|ics|2020-05-21
+Impact|Manipulation of Control|T0831|None|ics|2020-05-21
+Impair Process Control|Brute Force I/O|T0806|Control Server,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Impair Process Control|Modify Parameter|T0836|Control Server,Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay,Human-Machine Interface|ics|2020-05-21
+Impair Process Control|Unauthorized Command Message|T0855|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Inhibit Response Function|Alarm Suppression|T0878|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay,Device Configuration/Parameters|ics|2020-05-21
+Inhibit Response Function|Activate Firmware Update Mode|T0800|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Inhibit Response Function|Block Serial COM|T0805|Field Controller/RTU/PLC/IED,Input/Output Server,Device Configuration/Parameters|ics|2020-05-21
+Inhibit Response Function|Data Destruction|T0809|Control Server,Human-Machine Interface,Field Controller/RTU/PLC/IED|ics|2020-05-21
+Inhibit Response Function|Denial of Service|T0814|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Inhibit Response Function|Service Stop|T0881|Human-Machine Interface,Control Server,Data Historian,Engineering Workstation|ics|2020-05-21
+Inhibit Response Function|Block Command Message|T0803|Field Controller/RTU/PLC/IED,Device Configuration/Parameters|ics|2020-05-21
+Inhibit Response Function|Manipulate I/O Image|T0835|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Inhibit Response Function|Modify Alarm Settings|T0838|Human-Machine Interface,Control Server,Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED,Device Configuration/Parameters|ics|2020-05-21
+Inhibit Response Function|Block Reporting Message|T0804|Field Controller/RTU/PLC/IED,Input/Output Server,Device Configuration/Parameters|ics|2020-05-21
+Inhibit Response Function|Device Restart/Shutdown|T0816|Field Controller/RTU/PLC/IED|ics|2020-05-21
+Initial Access|Compromise Hardware Supply Chain|T1195.003|Linux,macOS,Windows|enterprise|2020-03-11
+Initial Access|Compromise Software Supply Chain|T1195.002|Linux,macOS,Windows|enterprise|2020-03-11
+Initial Access|Compromise Software Dependencies and Development Tools|T1195.001|Linux,macOS,Windows|enterprise|2020-03-11
+Initial Access|Spearphishing via Service|T1566.003|Linux,macOS,Windows|enterprise|2020-03-02
+Initial Access|Spearphishing Link|T1566.002|Linux,macOS,Windows,Office 365,SaaS,Google Workspace|enterprise|2020-03-02
+Initial Access|Spearphishing Attachment|T1566.001|macOS,Windows,Linux|enterprise|2020-03-02
+Initial Access|Phishing|T1566|Linux,macOS,Windows,SaaS,Office 365,Google Workspace|enterprise|2020-03-02
+Initial Access|Drive-by Compromise|T1189|Windows,Linux,macOS,SaaS|enterprise|2018-04-18
+Initial Access|Supply Chain Compromise|T1195|Linux,Windows,macOS|enterprise|2018-04-18
+Initial Access|Trusted Relationship|T1199|Windows,SaaS,IaaS,Linux,macOS|enterprise|2018-04-18
+Initial Access|Exploit Public-Facing Application|T1190|Windows,IaaS,Network,Linux,macOS,Containers|enterprise|2018-04-18
+Initial Access|Hardware Additions|T1200|Windows,Linux,macOS|enterprise|2018-04-18
+Initial Access|Transient Cyber Asset|T0864|Engineering Workstation|ics|2021-10-14
+Initial Access|Remote Services|T0886|Human-Machine Interface,Control Server,Engineering Workstation|ics|2021-04-12
+Initial Access|Spearphishing Attachment|T0865|Engineering Workstation,Human-Machine Interface,Control Server,Data Historian|ics|2020-05-21
+Initial Access|Wireless Compromise|T0860|Control Server,Field Controller/RTU/PLC/IED,Input/Output Server|ics|2020-05-21
+Initial Access|External Remote Services|T0822|Control Server,Input/Output Server|ics|2020-05-21
+Initial Access|Drive-by Compromise|T0817|None|ics|2020-05-21
+Initial Access|Rogue Master|T0848|Human-Machine Interface,Control Server,Engineering Workstation|ics|2020-05-21
+Initial Access|Exploit Public-Facing Application|T0819|Human-Machine Interface|ics|2020-05-21
+Initial Access|Internet Accessible Device|T0883|Control Server,Data Historian,Field Controller/RTU/PLC/IED,Human-Machine Interface,Input/Output Server,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Initial Access|Replication Through Removable Media|T0847|Human-Machine Interface,Data Historian,Control Server|ics|2020-05-21
+Initial Access|Supply Chain Compromise|T0862|Control Server,Data Historian,Field Controller/RTU/PLC/IED,Human-Machine Interface,Input/Output Server,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Lateral Movement|Lateral Tool Transfer|T1570|Linux,macOS,Windows|enterprise|2020-03-11
+Lateral Movement|RDP Hijacking|T1563.002|Windows|enterprise|2020-02-25
+Lateral Movement|SSH Hijacking|T1563.001|Linux,macOS|enterprise|2020-02-25
+Lateral Movement|Remote Service Session Hijacking|T1563|Linux,macOS,Windows|enterprise|2020-02-25
+Lateral Movement|Windows Remote Management|T1021.006|Windows|enterprise|2020-02-11
+Lateral Movement|VNC|T1021.005|Linux,macOS,Windows|enterprise|2020-02-11
+Lateral Movement|SSH|T1021.004|Linux,macOS|enterprise|2020-02-11
+Lateral Movement|Distributed Component Object Model|T1021.003|Windows|enterprise|2020-02-11
+Lateral Movement|SMB/Windows Admin Shares|T1021.002|Windows|enterprise|2020-02-11
+Lateral Movement|Remote Desktop Protocol|T1021.001|Windows|enterprise|2020-02-11
+Lateral Movement|Internal Spearphishing|T1534|Windows,macOS,Linux,Office 365,SaaS,Google Workspace|enterprise|2019-09-04
+Lateral Movement|Exploitation of Remote Services|T1210|Linux,Windows,macOS|enterprise|2018-04-18
+Lateral Movement|Replication Through Removable Media|T1091|Windows|enterprise|2017-05-31
+Lateral Movement|Taint Shared Content|T1080|Windows,Office 365,SaaS,Linux,macOS|enterprise|2017-05-31
+Lateral Movement|Remote Services|T1021|Linux,macOS,Windows|enterprise|2017-05-31
+Lateral Movement|Exploitation of Remote Services|T0866|Human-Machine Interface,Data Historian,Engineering Workstation|ics|2020-05-21
+Lateral Movement|Lateral Tool Transfer|T0867|Human-Machine Interface,Control Server,Data Historian|ics|2020-05-21
+Lateral Movement|Program Download|T0843|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Lateral Movement|Default Credentials|T0812|Human-Machine Interface,Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay,Control Server,Engineering Workstation|ics|2020-05-21
+Persistence|Login Items|T1547.015|macOS|enterprise|2021-10-05
+Persistence|IIS Components|T1505.004|Windows|enterprise|2021-06-03
+Persistence|Active Setup|T1547.014|Windows|enterprise|2020-12-18
+Persistence|Print Processors|T1547.012|Windows|enterprise|2020-10-05
+Persistence|COR_PROFILER|T1574.012|Windows|enterprise|2020-06-24
+Persistence|SSH Authorized Keys|T1098.004|Linux,macOS|enterprise|2020-06-24
+Persistence|Dylib Hijacking|T1574.004|macOS|enterprise|2020-03-16
+Persistence|Dynamic Linker Hijacking|T1574.006|Linux,macOS|enterprise|2020-03-13
+Persistence|DLL Side-Loading|T1574.002|Windows|enterprise|2020-03-13
+Persistence|DLL Search Order Hijacking|T1574.001|Windows|enterprise|2020-03-13
+Persistence|Path Interception by Search Order Hijacking|T1574.008|Windows|enterprise|2020-03-13
+Persistence|Path Interception by PATH Environment Variable|T1574.007|Windows|enterprise|2020-03-13
+Persistence|Path Interception by Unquoted Path|T1574.009|Windows|enterprise|2020-03-13
+Persistence|Services Registry Permissions Weakness|T1574.011|Windows|enterprise|2020-03-13
+Persistence|Executable Installer File Permissions Weakness|T1574.005|Windows|enterprise|2020-03-13
+Persistence|Services File Permissions Weakness|T1574.010|Windows|enterprise|2020-03-12
+Persistence|Hijack Execution Flow|T1574|Linux,macOS,Windows|enterprise|2020-03-12
+Persistence|Compromise Client Software Binary|T1554|Linux,macOS,Windows|enterprise|2020-02-11
+Persistence|Cloud Account|T1136.003|Azure AD,Office 365,IaaS,Google Workspace|enterprise|2020-01-29
+Persistence|Domain Account|T1136.002|Windows,macOS,Linux|enterprise|2020-01-28
+Persistence|Local Account|T1136.001|Linux,macOS,Windows|enterprise|2020-01-28
+Persistence|Plist Modification|T1547.011|macOS|enterprise|2020-01-24
+Persistence|Port Monitors|T1547.010|Windows|enterprise|2020-01-24
+Persistence|Shortcut Modification|T1547.009|Windows|enterprise|2020-01-24
+Persistence|LSASS Driver|T1547.008|Windows|enterprise|2020-01-24
+Persistence|Re-opened Applications|T1547.007|macOS|enterprise|2020-01-24
+Persistence|Kernel Modules and Extensions|T1547.006|macOS,Linux|enterprise|2020-01-24
+Persistence|Security Support Provider|T1547.005|Windows|enterprise|2020-01-24
+Persistence|Winlogon Helper DLL|T1547.004|Windows|enterprise|2020-01-24
+Persistence|Time Providers|T1547.003|Windows|enterprise|2020-01-24
+Persistence|Authentication Package|T1547.002|Windows|enterprise|2020-01-24
+Persistence|Registry Run Keys / Startup Folder|T1547.001|Windows|enterprise|2020-01-23
+Persistence|Boot or Logon Autostart Execution|T1547|Linux,macOS,Windows|enterprise|2020-01-23
+Persistence|Add Office 365 Global Administrator Role|T1098.003|Office 365|enterprise|2020-01-19
+Persistence|Exchange Email Delegate Permissions|T1098.002|Windows,Office 365|enterprise|2020-01-19
+Persistence|Additional Cloud Credentials|T1098.001|IaaS,Azure AD|enterprise|2020-01-19
+Persistence|Launch Daemon|T1543.004|macOS|enterprise|2020-01-17
+Persistence|Windows Service|T1543.003|Windows|enterprise|2020-01-17
+Persistence|Systemd Service|T1543.002|Linux|enterprise|2020-01-17
+Persistence|Launch Agent|T1543.001|macOS|enterprise|2020-01-17
+Persistence|Startup Items|T1037.005|macOS|enterprise|2020-01-15
+Persistence|RC Scripts|T1037.004|macOS,Linux|enterprise|2020-01-15
+Persistence|Network Logon Script|T1037.003|Windows|enterprise|2020-01-10
+Persistence|Create or Modify System Process|T1543|Windows,macOS,Linux|enterprise|2020-01-10
+Persistence|Logon Script (Mac)|T1037.002|macOS|enterprise|2020-01-10
+Persistence|Logon Script (Windows)|T1037.001|Windows|enterprise|2020-01-10
+Persistence|Bootkit|T1542.003|Linux,Windows|enterprise|2019-12-19
+Persistence|Component Firmware|T1542.002|Windows|enterprise|2019-12-19
+Persistence|System Firmware|T1542.001|Windows|enterprise|2019-12-19
+Persistence|Web Shell|T1505.003|Linux,Windows,macOS|enterprise|2019-12-13
+Persistence|Transport Agent|T1505.002|Linux,Windows|enterprise|2019-12-12
+Persistence|SQL Stored Procedures|T1505.001|Windows,Linux|enterprise|2019-12-12
+Persistence|Office Template Macros|T1137.001|Windows,Office 365|enterprise|2019-11-07
+Persistence|Outlook Home Page|T1137.004|Windows,Office 365|enterprise|2019-11-07
+Persistence|Outlook Forms|T1137.003|Windows,Office 365|enterprise|2019-11-07
+Persistence|Outlook Rules|T1137.005|Windows,Office 365|enterprise|2019-11-07
+Persistence|Add-ins|T1137.006|Windows,Office 365|enterprise|2019-11-07
+Persistence|Office Test|T1137.002|Windows,Office 365|enterprise|2019-11-07
+Persistence|XDG Autostart Entries|T1547.013|Linux|enterprise|2019-09-10
+Persistence|Implant Internal Image|T1525|IaaS,Containers|enterprise|2019-09-04
+Persistence|Server Software Component|T1505|Windows,Linux,macOS|enterprise|2019-06-28
+Persistence|Browser Extensions|T1176|Linux,macOS,Windows|enterprise|2018-01-16
+Persistence|Create Account|T1136|Windows,Azure AD,Office 365,IaaS,Linux,macOS,Google Workspace|enterprise|2017-12-14
+Persistence|Office Application Startup|T1137|Windows,Office 365|enterprise|2017-12-14
+Persistence|External Remote Services|T1133|Windows,Linux,Containers,macOS|enterprise|2017-05-31
+Persistence|Account Manipulation|T1098|Windows,Azure AD,Office 365,IaaS,Linux,macOS,Google Workspace|enterprise|2017-05-31
+Persistence|Boot or Logon Initialization Scripts|T1037|macOS,Windows,Linux|enterprise|2017-05-31
+Persistence|Modify Program|T0889|Field Controller/RTU/PLC/IED|ics|2021-04-13
+Persistence|System Firmware|T0857|Safety Instrumented System/Protection Relay,Field Controller/RTU/PLC/IED,Input/Output Server|ics|2020-05-21
+Persistence|Valid Accounts|T0859|Control Server,Data Historian,Engineering Workstation,Field Controller/RTU/PLC/IED,Human-Machine Interface,Input/Output Server,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Persistence|Module Firmware|T0839|Field Controller/RTU/PLC/IED,Safety Instrumented System/Protection Relay|ics|2020-05-21
+Persistence|Project File Infection|T0873|Engineering Workstation,Human-Machine Interface|ics|2020-05-21
+Privilege Escalation|Escape to Host|T1611|Windows,Linux,Containers|enterprise|2021-03-30
+Privilege Escalation|Component Object Model Hijacking|T1546.015|Windows|enterprise|2020-03-16
+Privilege Escalation|Elevated Execution with Prompt|T1548.004|macOS|enterprise|2020-01-30
+Privilege Escalation|Sudo and Sudo Caching|T1548.003|Linux,macOS|enterprise|2020-01-30
+Privilege Escalation|Bypass User Account Control|T1548.002|Windows|enterprise|2020-01-30
+Privilege Escalation|Setuid and Setgid|T1548.001|Linux,macOS|enterprise|2020-01-30
+Privilege Escalation|Abuse Elevation Control Mechanism|T1548|Linux,macOS,Windows|enterprise|2020-01-30
+Privilege Escalation|Emond|T1546.014|macOS|enterprise|2020-01-24
+Privilege Escalation|PowerShell Profile|T1546.013|Windows|enterprise|2020-01-24
+Privilege Escalation|Image File Execution Options Injection|T1546.012|Windows|enterprise|2020-01-24
+Privilege Escalation|Application Shimming|T1546.011|Windows|enterprise|2020-01-24
+Privilege Escalation|AppInit DLLs|T1546.010|Windows|enterprise|2020-01-24
+Privilege Escalation|AppCert DLLs|T1546.009|Windows|enterprise|2020-01-24
+Privilege Escalation|Accessibility Features|T1546.008|Windows|enterprise|2020-01-24
+Privilege Escalation|Netsh Helper DLL|T1546.007|Windows|enterprise|2020-01-24
+Privilege Escalation|LC_LOAD_DYLIB Addition|T1546.006|macOS|enterprise|2020-01-24
+Privilege Escalation|Trap|T1546.005|macOS,Linux|enterprise|2020-01-24
+Privilege Escalation|Unix Shell Configuration Modification|T1546.004|Linux,macOS|enterprise|2020-01-24
+Privilege Escalation|Windows Management Instrumentation Event Subscription|T1546.003|Windows|enterprise|2020-01-24
+Privilege Escalation|Screensaver|T1546.002|Windows|enterprise|2020-01-24
+Privilege Escalation|Change Default File Association|T1546.001|Windows|enterprise|2020-01-24
+Privilege Escalation|Event Triggered Execution|T1546|Linux,macOS,Windows|enterprise|2020-01-22
+Privilege Escalation|Exploitation for Privilege Escalation|T1068|Linux,macOS,Windows,Containers|enterprise|2017-05-31
+Privilege Escalation|Exploitation for Privilege Escalation|T0890|Human-Machine Interface,Safety Instrumented System/Protection Relay|ics|2021-04-13
+Reconnaissance|Spearphishing Link|T1598.003|PRE|enterprise|2020-10-02
+Reconnaissance|Spearphishing Attachment|T1598.002|PRE|enterprise|2020-10-02
+Reconnaissance|Spearphishing Service|T1598.001|PRE|enterprise|2020-10-02
+Reconnaissance|Phishing for Information|T1598|PRE|enterprise|2020-10-02
+Reconnaissance|Purchase Technical Data|T1597.002|PRE|enterprise|2020-10-02
+Reconnaissance|Threat Intel Vendors|T1597.001|PRE|enterprise|2020-10-02
+Reconnaissance|Search Closed Sources|T1597|PRE|enterprise|2020-10-02
+Reconnaissance|Scan Databases|T1596.005|PRE|enterprise|2020-10-02
+Reconnaissance|CDNs|T1596.004|PRE|enterprise|2020-10-02
+Reconnaissance|Digital Certificates|T1596.003|PRE|enterprise|2020-10-02
+Reconnaissance|DNS/Passive DNS|T1596.001|PRE|enterprise|2020-10-02
+Reconnaissance|WHOIS|T1596.002|PRE|enterprise|2020-10-02
+Reconnaissance|Search Open Technical Databases|T1596|PRE|enterprise|2020-10-02
+Reconnaissance|Vulnerability Scanning|T1595.002|PRE|enterprise|2020-10-02
+Reconnaissance|Scanning IP Blocks|T1595.001|PRE|enterprise|2020-10-02
+Reconnaissance|Active Scanning|T1595|PRE|enterprise|2020-10-02
+Reconnaissance|Search Victim-Owned Websites|T1594|PRE|enterprise|2020-10-02
+Reconnaissance|Search Engines|T1593.002|PRE|enterprise|2020-10-02
+Reconnaissance|Social Media|T1593.001|PRE|enterprise|2020-10-02
+Reconnaissance|Search Open Websites/Domains|T1593|PRE|enterprise|2020-10-02
+Reconnaissance|Client Configurations|T1592.004|PRE|enterprise|2020-10-02
+Reconnaissance|Firmware|T1592.003|PRE|enterprise|2020-10-02
+Reconnaissance|Software|T1592.002|PRE|enterprise|2020-10-02
+Reconnaissance|Hardware|T1592.001|PRE|enterprise|2020-10-02
+Reconnaissance|Gather Victim Host Information|T1592|PRE|enterprise|2020-10-02
+Reconnaissance|Identify Roles|T1591.004|PRE|enterprise|2020-10-02
+Reconnaissance|Identify Business Tempo|T1591.003|PRE|enterprise|2020-10-02
+Reconnaissance|Determine Physical Locations|T1591.001|PRE|enterprise|2020-10-02
+Reconnaissance|Business Relationships|T1591.002|PRE|enterprise|2020-10-02
+Reconnaissance|Gather Victim Org Information|T1591|PRE|enterprise|2020-10-02
+Reconnaissance|Network Security Appliances|T1590.006|PRE|enterprise|2020-10-02
+Reconnaissance|IP Addresses|T1590.005|PRE|enterprise|2020-10-02
+Reconnaissance|Network Topology|T1590.004|PRE|enterprise|2020-10-02
+Reconnaissance|Network Trust Dependencies|T1590.003|PRE|enterprise|2020-10-02
+Reconnaissance|DNS|T1590.002|PRE|enterprise|2020-10-02
+Reconnaissance|Domain Properties|T1590.001|PRE|enterprise|2020-10-02
+Reconnaissance|Gather Victim Network Information|T1590|PRE|enterprise|2020-10-02
+Reconnaissance|Employee Names|T1589.003|PRE|enterprise|2020-10-02
+Reconnaissance|Email Addresses|T1589.002|PRE|enterprise|2020-10-02
+Reconnaissance|Credentials|T1589.001|PRE|enterprise|2020-10-02
+Reconnaissance|Gather Victim Identity Information|T1589|PRE|enterprise|2020-10-02
+Resource Development|Link Target|T1608.005|PRE|enterprise|2021-03-17
+Resource Development|Drive-by Target|T1608.004|PRE|enterprise|2021-03-17
+Resource Development|Install Digital Certificate|T1608.003|PRE|enterprise|2021-03-17
+Resource Development|Upload Tool|T1608.002|PRE|enterprise|2021-03-17
+Resource Development|Upload Malware|T1608.001|PRE|enterprise|2021-03-17
+Resource Development|Stage Capabilities|T1608|PRE|enterprise|2021-03-17
+Resource Development|Vulnerabilities|T1588.006|PRE|enterprise|2020-10-15
+Resource Development|Exploits|T1588.005|PRE|enterprise|2020-10-01
+Resource Development|Digital Certificates|T1588.004|PRE|enterprise|2020-10-01
+Resource Development|Code Signing Certificates|T1588.003|PRE|enterprise|2020-10-01
+Resource Development|Tool|T1588.002|PRE|enterprise|2020-10-01
+Resource Development|Malware|T1588.001|PRE|enterprise|2020-10-01
+Resource Development|Obtain Capabilities|T1588|PRE|enterprise|2020-10-01
+Resource Development|Exploits|T1587.004|PRE|enterprise|2020-10-01
+Resource Development|Digital Certificates|T1587.003|PRE|enterprise|2020-10-01
+Resource Development|Code Signing Certificates|T1587.002|PRE|enterprise|2020-10-01
+Resource Development|Malware|T1587.001|PRE|enterprise|2020-10-01
+Resource Development|Develop Capabilities|T1587|PRE|enterprise|2020-10-01
+Resource Development|Email Accounts|T1586.002|PRE|enterprise|2020-10-01
+Resource Development|Social Media Accounts|T1586.001|PRE|enterprise|2020-10-01
+Resource Development|Compromise Accounts|T1586|PRE|enterprise|2020-10-01
+Resource Development|Email Accounts|T1585.002|PRE|enterprise|2020-10-01
+Resource Development|Social Media Accounts|T1585.001|PRE|enterprise|2020-10-01
+Resource Development|Establish Accounts|T1585|PRE|enterprise|2020-10-01
+Resource Development|Web Services|T1584.006|PRE|enterprise|2020-10-01
+Resource Development|Botnet|T1584.005|PRE|enterprise|2020-10-01
+Resource Development|Server|T1584.004|PRE|enterprise|2020-10-01
+Resource Development|Virtual Private Server|T1584.003|PRE|enterprise|2020-10-01
+Resource Development|DNS Server|T1584.002|PRE|enterprise|2020-10-01
+Resource Development|Domains|T1584.001|PRE|enterprise|2020-10-01
+Resource Development|Web Services|T1583.006|PRE|enterprise|2020-10-01
+Resource Development|Botnet|T1583.005|PRE|enterprise|2020-10-01
+Resource Development|Server|T1583.004|PRE|enterprise|2020-10-01
+Resource Development|Virtual Private Server|T1583.003|PRE|enterprise|2020-10-01
+Resource Development|DNS Server|T1583.002|PRE|enterprise|2020-10-01
+Resource Development|Compromise Infrastructure|T1584|PRE|enterprise|2020-10-01
+Resource Development|Domains|T1583.001|PRE|enterprise|2020-09-30
+Resource Development|Acquire Infrastructure|T1583|PRE|enterprise|2020-09-30
